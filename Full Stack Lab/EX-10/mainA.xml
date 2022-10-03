@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/number_view"
+        android:layout_width="340dp"
+        android:layout_height="182dp"
+        android:background="#000"
+        android:textAlignment="textEnd"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_toRightOf="@+id/number_view"
+        android:background="@drawable/gradient"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <RelativeLayout
+        android:id="@+id/rr1"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number_view"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no1"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:background="@drawable/gradient"
+            android:text="1"
+            android:textColor="#fff"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no2"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no1"
+            android:background="@drawable/gradient"
+            android:text="2"
+            android:textColor="#fff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no3"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no2"
+            android:background="@drawable/gradient"
+            android:text="3"
+            android:textColor="#fff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/del"
+            android:layout_width="112dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no3"
+            android:background="@drawable/gradient"
+            android:text="del"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rr2"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rr1"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no4"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:background="@drawable/gradient"
+            android:text="4"
+            android:textColor="#fff"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no5"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no4"
+            android:background="@drawable/gradient"
+            android:text="5"
+            android:textColor="#fff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no6"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no5"
+            android:background="@drawable/gradient"
+            android:text="6"
+            android:textColor="#fff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/div"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no6"
+            android:background="@drawable/gradient"
+            android:text="/"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rr3"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rr2"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no7"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:background="@drawable/gradient"
+            android:text="7"
+            android:textColor="#fff"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no8"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no7"
+            android:background="@drawable/gradient"
+            android:text="8"
+            android:textColor="#fff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no9"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no8"
+            android:background="@drawable/gradient"
+            android:text="9"
+            android:textColor="#fff" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mul"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/no9"
+            android:background="@drawable/gradient"
+            android:text="*"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rr4"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rr3"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no0"
+            android:layout_width="111dp"
+            android:layout_height="130dp"
+            android:background="@drawable/gradient"
+            android:text="0"
+            android:textColor="#fff"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="111dp"
+            android:layout_height="130dp"
+            android:layout_toRightOf="@+id/no0"
+            android:background="@drawable/gradient"
+            android:text="+"
+            android:textColor="#fff" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sub"
+            android:layout_width="111dp"
+            android:layout_height="130dp"
+            android:text="-"
+            android:layout_toRightOf="@+id/add"
+            android:textColor="#fff"
+            android:background="@drawable/gradient"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/equal"
+            android:layout_width="111dp"
+            android:layout_height="130dp"
+            android:layout_toRightOf="@+id/sub"
+            android:background="#E4F86707"
+            android:text="="
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

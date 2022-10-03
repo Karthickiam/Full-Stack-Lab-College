@@ -1,0 +1,50 @@
+{
+  "path": "",
+  "name": "photos",
+  "type": "directory",
+  "children": [
+    {
+      "path": "summer",
+      "name": "summer",
+      "type": "directory",
+      "children": [
+        {
+          "path": "summer/june",
+          "name": "june",
+          "type": "directory",
+          "children": [
+            {
+              "path": "summer/june/windsurf.jpg",
+              "name": "windsurf.jpg",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "winter",
+      "name": "winter",
+      "type": "directory",
+      "children": [
+        {
+          "path": "winter/january",
+          "name": "january",
+          "type": "directory",
+          "children": [
+            {
+              "path": "winter/january/ski.png",
+              "name": "ski.png",
+              "type": "file"
+            },
+            {
+              "path": "winter/january/snowboard.jpg",
+              "name": "snowboard.jpg",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
